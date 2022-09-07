@@ -4,36 +4,27 @@ using UnityEngine;
 
 public class BoxBehavior : MonoBehaviour
 {
-    public Material[] material;
+    public BoxAttributes boxAttributes;
 
-    [SerializeField] private int _life;
-    [SerializeField] private int _power;
-    public int Life
+    private void Start()
     {
-        get { return _life; }
-        set { _life = value; }
+        boxAttributes = GetComponent<BoxAttributes>();
     }
-    public int Power
-    {
-        get { return _power; }
-        set { _power = value; }
-    }
+
 
     private async void OnEnable()
     {
-        gameObject.GetComponent<MeshRenderer>().material = material[0];
-
         await System.Threading.Tasks.Task.Delay(500);
-        Debug.Log($"Life: {Life} life: {_life}");
+        Debug.Log($"Life: {boxAttributes.life}");
     }
     private async void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.name == "Chao")
         {
-            other.gameObject.GetComponent<GroundBehavior>().Life = Power;
-            await System.Threading.Tasks.Task.Delay(Random.Range(500, 1000));
+            other.gameObject.GetComponent<BoxBehavior>().boxAttributes.life = boxAttributes.power;
 
-            gameObject.GetComponent<MeshRenderer>().material = material[1];
+            await System.Threading.Tasks.Task.Delay(Random.Range(500, 1000));
+            boxAttributes.meshRenderer = boxAttributes._material[1];
         }
     }
 }

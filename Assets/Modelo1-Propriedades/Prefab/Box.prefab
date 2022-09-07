@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6556379596480912016}
   - component: {fileID: 5467421671436362040}
   - component: {fileID: 2894076563220785830}
+  - component: {fileID: 6141000976826120616}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -110,8 +111,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5576f3e3ae570c64e9b66cbe76bae643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material:
+  boxAttributes: {fileID: 6141000976826120616}
+--- !u!114 &6141000976826120616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4937969355605204499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 503b42f48b1b16049a3ad5b746aace3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _material:
   - {fileID: 2100000, guid: 7222061d0844f4c41b9787a1d662f708, type: 2}
   - {fileID: 2100000, guid: f404df57d7833db4d8885732432f10ee, type: 2}
-  _life: 2
-  _power: 2
+  _meshRenderer: {fileID: 6556379596480912016}
+  _life: 0
+  _power: 0

@@ -7,7 +7,7 @@ public class GroundBehavior : MonoBehaviour
 {
     private Slider lifeBar;
     [SerializeField] private int _life;
-    public int Life
+    public int life
     {
         get { return _life; }
         set {
