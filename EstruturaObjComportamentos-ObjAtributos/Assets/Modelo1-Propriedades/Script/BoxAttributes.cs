@@ -20,7 +20,6 @@ public class BoxAttributes : MonoBehaviour
         _meshRenderer.material = _material[0];
     }
 
-
     public int life
     {
         get { return _life; }

@@ -302,7 +302,6 @@ GameObject:
   - component: {fileID: 288273689}
   - component: {fileID: 288273688}
   - component: {fileID: 288273693}
-  - component: {fileID: 288273695}
   - component: {fileID: 288273694}
   m_Layer: 0
   m_Name: Chao
@@ -415,28 +414,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 288273687}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 503b42f48b1b16049a3ad5b746aace3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 84714787763d00a4896cf195fb70d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _material:
-  - {fileID: 2100000, guid: 9ea1abed912364344b57ac88886c7283, type: 2}
-  - {fileID: 2100000, guid: 9ea1abed912364344b57ac88886c7283, type: 2}
-  _meshRenderer: {fileID: 288273689}
   _life: 0
-  _power: 0
---- !u!114 &288273695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288273687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5576f3e3ae570c64e9b66cbe76bae643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boxAttributes: {fileID: 288273694}
 --- !u!1 &609732467
 GameObject:
   m_ObjectHideFlags: 0
