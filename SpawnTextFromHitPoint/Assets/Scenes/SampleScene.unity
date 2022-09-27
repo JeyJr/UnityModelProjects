@@ -1029,7 +1029,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitBox: {fileID: 1920394883}
-  pc: {fileID: 1483589299}
+  playerController: {fileID: 1483589299}
+  pHitBox: {fileID: 1920394884}
 --- !u!1 &1920394881
 GameObject:
   m_ObjectHideFlags: 0
