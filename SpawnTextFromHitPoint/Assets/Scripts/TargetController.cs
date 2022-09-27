@@ -35,7 +35,7 @@ public class TargetController : MonoBehaviour
         Instantiate(txtHitObj, txtHitSpawnPoint.position, Quaternion.identity);
         tMesh.text = dmgValue.ToString();
         tMesh.color = Color.red;
-        tMesh.fontSize += 2;
+        tMesh.fontSize = 90;
 
     }
     private void NormalAtk(int dmgValue)
@@ -43,6 +43,6 @@ public class TargetController : MonoBehaviour
         Instantiate(txtHitObj, txtHitSpawnPoint.position, Quaternion.identity);
         tMesh.text = dmgValue.ToString();
         tMesh.color = Color.white;
-        tMesh.fontSize -= 2;
+        tMesh.fontSize = 70;
     }
 }
