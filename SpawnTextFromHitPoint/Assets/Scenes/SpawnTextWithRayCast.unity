@@ -2124,7 +2124,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   playerAttributes: {fileID: 1483589301}
-  distance: 5
+  distance: 1
   hitTarget: 0
 --- !u!95 &1483589303
 Animator:
