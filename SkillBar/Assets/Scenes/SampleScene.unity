@@ -294,8 +294,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 434, y: -177}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 485, y: -243}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &292903767
 MonoBehaviour:
@@ -340,7 +340,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 292903768}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1871766574}
+        m_TargetAssemblyTypeName: MainUI, Assembly-CSharp
+        m_MethodName: BtnCastSkill
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &292903768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,8 +428,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -397, y: -21}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -225, y: 286}
+  m_SizeDelta: {x: 82, y: 52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &589422745
 MonoBehaviour:
@@ -468,8 +480,8 @@ MonoBehaviour:
         m_MethodName: PorSkillNaSkillBar
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 589422745}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_ObjectArgument: {fileID: 589422743}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -488,7 +500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.051886797, b: 0.92027295, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -549,8 +561,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 312, y: -177}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 396, y: -243}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &622912259
 MonoBehaviour:
@@ -595,7 +607,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 622912260}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1871766574}
+        m_TargetAssemblyTypeName: MainUI, Assembly-CSharp
+        m_MethodName: BtnCastSkill
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &622912260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1429,8 +1453,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 193, y: -177}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 306, y: -243}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1830390764
 MonoBehaviour:
@@ -1475,7 +1499,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1830390765}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1871766574}
+        m_TargetAssemblyTypeName: MainUI, Assembly-CSharp
+        m_MethodName: BtnCastSkill
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1830390765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1741,8 +1777,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -397, y: -62}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -137, y: 286}
+  m_SizeDelta: {x: 82, y: 52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1960640394
 MonoBehaviour:
@@ -1793,8 +1829,8 @@ MonoBehaviour:
         m_MethodName: PorSkillNaSkillBar
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1960640394}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_ObjectArgument: {fileID: 1960640392}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1813,7 +1849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
+  m_Color: {r: 0.91188633, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1875,8 +1911,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -397, y: 99}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -490, y: 286}
+  m_SizeDelta: {x: 82, y: 52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2006014415
 MonoBehaviour:
@@ -1927,8 +1963,8 @@ MonoBehaviour:
         m_MethodName: PorSkillNaSkillBar
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 2006014415}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_ObjectArgument: {fileID: 2006014413}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2009,8 +2045,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -397, y: 59}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -398, y: 286}
+  m_SizeDelta: {x: 82, y: 52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2025790261
 MonoBehaviour:
@@ -2061,8 +2097,8 @@ MonoBehaviour:
         m_MethodName: PorSkillNaSkillBar
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 2025790261}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_ObjectArgument: {fileID: 2025790259}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2143,8 +2179,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -397, y: 19}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -311, y: 286}
+  m_SizeDelta: {x: 82, y: 52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2028976138
 MonoBehaviour:
@@ -2195,8 +2231,8 @@ MonoBehaviour:
         m_MethodName: PorSkillNaSkillBar
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 2028976138}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_ObjectArgument: {fileID: 2028976136}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

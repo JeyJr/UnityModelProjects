@@ -28,19 +28,14 @@ public class MainUI : MonoBehaviour
                 if(slotsSkillBar[i] == null) break;
                 Color color = slotsSkillBar[i].GetComponent<Image>().color;
                 btnSkillBar[i].GetComponent<Image>().color = color;
-                btnSkillBar[i].GetComponent<SkillsInput>().EnableSkill = true;
+                //btnSkillBar[i].GetComponent<SkillsInput>().EnableSkill = true;
             }
 
     }
-    public void PorSkillNaSkillBarV2(Button btn){
-        //    if(slotOcupado >= 3) slotOcupado = 0;
-        //         slotsSkillBar[slotOcupado] = btn.name; 
-        //         btnSkillBar[slotOcupado].gameObject.GetComponent<Image>().color = btn.GetComponent<Image>().color;
-        //         slotOcupado++;
 
-        //slotsSkillBar[slotOcupado] = btn.name; 
-        //btnSkillBar[slotOcupado].gameObject.GetComponent<Image>().color = btn.GetComponent<Image>().color;
-        //slotOcupado++;
+    public void BtnCastSkill(int slotNum){
+        if(slotsSkillBar[slotNum - 1] == null) Debug.Log("Sem skill");
+        else Debug.Log($"Cast skill: {slotsSkillBar[slotNum - 1].name}");
     }
 }
 
