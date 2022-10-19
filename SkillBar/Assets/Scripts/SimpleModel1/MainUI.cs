@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class MainUI : MonoBehaviour
 {
-    
+
     public List<Button> btnSkill = new();
     public List<Button> btnSkillBar = new();
     public List<GameObject> slotsSkillBar;
@@ -17,7 +17,6 @@ public class MainUI : MonoBehaviour
             slotsSkillBar.Add(null);
         }
     }
-
     public void PorSkillNaSkillBar(GameObject gc){
 
             slotsSkillBar[2] = slotsSkillBar[1];
@@ -32,7 +31,6 @@ public class MainUI : MonoBehaviour
             }
 
     }
-
     public void BtnCastSkill(int slotNum){
         if(slotsSkillBar[slotNum - 1] == null) Debug.Log("Sem skill");
         else Debug.Log($"Cast skill: {slotsSkillBar[slotNum - 1].name}");
