@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2891603058921646256}
   - component: {fileID: 2891603058921646259}
   - component: {fileID: 2891603058921646257}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 2891603059097979563}
   - component: {fileID: 615512164}
   - component: {fileID: 5724975340223889483}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}

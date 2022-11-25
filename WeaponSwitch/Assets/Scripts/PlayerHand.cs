@@ -7,11 +7,12 @@ public class PlayerHand : MonoBehaviour
     public PlayerAttributes playerAttributes;
     public SpriteRenderer weapon;
 
-    public void SetWeaponHand(GameObject go)
-    {
-        weapon.sprite = go.GetComponent<SpriteRenderer>().sprite;
-        playerAttributes.playerAtk = go.GetComponent<WeaponAttributes>().weaponAtk;
 
-        PlayerPrefs.SetInt("weaponID", go.GetComponent<WeaponAttributes>().weaponID);
+    public void EquipWeapon(GameObject weapon)
+    {
+        this.weapon.sprite = weapon.GetComponent<SpriteRenderer>().sprite;
+        playerAttributes.playerAtk = weapon.GetComponent<WeaponAttributes>().weaponAtk;
+
+        PlayerPrefs.SetInt("weaponID", weapon.GetComponent<WeaponAttributes>().weaponID);
     }
 }
